@@ -45,3 +45,6 @@ settest := @set(
     tc,
     td,
     te  );
+
+domtest := @domain(settest);
+rantest := @range(settest);
