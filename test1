@@ -10,6 +10,50 @@ sdfd := 44;
 skdfjdlksfjdlsf;zero:=0;
 tup :=
 
+a := 1;
+b := 2;
+c := @set(a,b);
+kp := @set(?true,?true);
+eqp := 0000022340000;
+br := 2;
+r, := 4678945632;
+p := 7392749493927305;
+s := 7392749q93927305;
+c := @set(a,b);
+ca := @set(r,p);
+cb := @union(c,ca);
+cc := @union(c,@set(r));
+cd := @union(c,@set(r));
+ce := @union(c,r);
+d := @set(@tuple(1,2),@tuple(3,4), @tuple(r,p));
+e := @is-function(c);
+f := @is-function(d);
+cd := @union(d,@set(r));
+
+
+
+g := @equal(c,@set(a,2));
+h := @apply-function(d,a);
+i := @tuple(@tuple("st0","sy0"),@tuple("st1","sy1","L"));
+j := @set(i);
+l := @is-function(?false);
+z := a;
+l := @set(@tuple(0,@set(@tuple(0,"sy1"),@tuple(1,@set(@tuple(0,@set(@tuple(0,"sy1"),@tuple(1,"sy2"))),@tuple(1,"sy2"))))),@tuple(1,@set(@tuple(0,@set(@tuple(0,@set(@tuple(0,"sy1"),@tuple(1,"sy2"))),@tuple(1,"sy2"))),@tuple(1,"sy2"))));
+o := @apply-function(d,a);
+q := -1;
+zD := @domain(d);
+zR := @range(d);
+zFi := @is-function(i);
+eFi := @is-function(c);
+fTi := @is-function(d);
+eqp := 000002;
+eqT := @equal(-0,0);
+eqTT := @equal(2,00002);
+k := @set(?true);
+gT := @equal(d,@set(@tuple(1,2),@tuple(3,4)));
+gF := @equal(d,@set(@tuple(1,2),@tuple(7,4)));
+gK := @equal(d,@set(@tuple(1,2),@tuple(3,4), @tuple(r,p)));
+gK := @equal(a);
 
 
 @tuple
