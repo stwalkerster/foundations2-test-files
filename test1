@@ -32,3 +32,16 @@ neg
 ;
 
 eq:=@equal(zero, neg);
+
+ta:=@tuple(1,2);
+tb:=@tuple(2,3);
+tc:=@tuple(3,4);
+td:=@tuple(4,5);
+te:=@tuple(5,6);
+
+settest := @set(
+    ta,
+    tb,
+    tc,
+    td,
+    te  );
