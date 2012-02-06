@@ -71,6 +71,9 @@ equaltest := @tuple(
  @equal(@set(1),@tuple(1))
 );
 
+# these tests are failing for some reason - it's
+# all to do with the sets.
+
 interestingequaltests:= @tuple(
  @equal(@set(1,1),@set(1)) ,
  @equal(@set(1,2),@set(2,1))
