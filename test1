@@ -4,6 +4,9 @@ billy :=
 603;df:=@set(434,bob,billy);
 
 
+ddkddd := 55; #comment test
+sdfd := 44;
+
 skdfjdlksfjdlsf;zero:=0;
 tup :=
 
@@ -62,10 +65,13 @@ equaltest := @tuple(
  @equal(?true,?false),
  @equal(@tuple(1,2),@tuple(2,1)),
  @equal(@tuple(1,2),@tuple(1,2)),
- @equal(@set(1,2),@set(2,1)),
  @equal(@set(1,2),@set(2,1,3)),
  @equal(@set(1),1),
  @equal(@set(@set(),@set(@set())),2),
- @equal(@set(1),@tuple(1)),
- @equal(@set(1,1),@set(1))
+ @equal(@set(1),@tuple(1))
+);
+
+interestingequaltests:= @tuple(
+ @equal(@set(1,1),@set(1)) ,
+ @equal(@set(1,2),@set(2,1))
 );
