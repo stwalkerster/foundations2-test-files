@@ -24,10 +24,10 @@ jbw:
 	rm -f input
 	cp test-files/input input
 	$(runcmd)
-	diff -wc output test-files/output
+	diff -wu output test-files/output
 
 stw:
 	rm -f input
 	cp test-files/test1 input
 	$(runcmd)
-	diff -wc output test-files/test1-output
+	diff -wu output test-files/test1-output
