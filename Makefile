@@ -22,12 +22,12 @@
 
 jbw:
 	rm input
-	mv test-files/input
+	mv test-files/input input
 	$(runcmd)
 	diff -wc output test-files/output
 
 stw:
 	rm input
-	mv test-files/test1
+	mv test-files/test1 input
 	$(runcmd)
 	diff -wc output test-files/test1-output
