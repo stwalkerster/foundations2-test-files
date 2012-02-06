@@ -1,7 +1,7 @@
 bob:=242;
 billy :=       			
 
-603;df:=@set(434,bob,billy);
+603;df:=@set(bob,434,billy);
 
 
 ddkddd := 55; #comment test
