@@ -16,18 +16,18 @@
 # How to add to this makefile:
 #  1) pick the name of a target which hasn't been used yet
 #  2) put a sample input and output file into this directory
-#  3) copy an existing target, and tweak the filenames under the mv statement 
+#  3) copy an existing target, and tweak the filenames under the cp statement 
 #     and the diff statement to match the ones you've added.
 #  4) make sure indentation is done with tabs.
 
 jbw:
-	rm input
-	mv test-files/input input
+	rm -f input
+	cp test-files/input input
 	$(runcmd)
 	diff -wc output test-files/output
 
 stw:
-	rm input
-	mv test-files/test1 input
+	rm -f input
+	cp test-files/test1 input
 	$(runcmd)
 	diff -wc output test-files/test1-output
